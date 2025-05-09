@@ -1,0 +1,19 @@
+Adaptive Multi-Stage Fuzzy Grey-Wolf Optimizer (AMF-GWO)
+
+amf_gwo/
+├── algorithms/
+│   ├── amf_gwo.py       # AMF-GWO implementation
+│   └── nsga2.py         # NSGA-II baseline (template)
+├── benchmarks/
+│   └── generator.py     # Benchmark instance generator
+├── utils/
+│   ├── evaluation.py    # Metrics: HV, GD, etc.
+│   └── repair.py        # Repair logic for feasibility
+├── results/             # Output archives and logs
+├── notebooks/
+│   └── analysis.ipynb   # Optional Jupyter analysis notebook
+├── main.py              # Entry script to run experiments
+├── README.md            # Project description
+├── requirements.txt     # Python dependencies
+├── LICENSE              # MIT License
+└── .gitignore           # Common ignores
